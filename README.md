@@ -4,7 +4,7 @@ Javascript calculator project
 - [x] add, subtract, multiple, divide, and operate functions
 - [x] percent function
 - [x] toggle positive/negative sign of number
-- [ ] add decimal to numbers
+- [x] add decimal to numbers
 - [ ] round answers w/ long decimals
 - [x] mashing '=' before entering numbers/operators does nothing
 - [x] clear button wipes all data

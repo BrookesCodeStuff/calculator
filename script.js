@@ -83,11 +83,20 @@ function handleFunction(key) {
   switch(key.value) {
     case 'percent':
       currentValue = percent(currentValue);
-      display.innerHTML = `${currentValue} `
+      display.innerHTML = `${currentValue} `;
       break;
     case 'sign':
       currentValue = sign(currentValue);
-      display.innerHTML = `${currentValue} `
+      display.innerHTML = `${currentValue} `;
+      break;
+    case 'decimal':
+      if (currentValue.includes('.')) {
+        return;
+      }
+      currentValue += '.';
+      display.innerHTML = `${currentValue}`;
+      break;
+    default:
       break;
   }
 }
