@@ -64,7 +64,7 @@ function handleOperation() {
   currentValue = operation[0];
   previousValue = '';
   operation = [];
-  display.innerHTML = currentValue;
+  display.innerHTML = Number.isInteger(currentValue) ? currentValue : parseFloat(currentValue.toFixed(4));
 }
 
 function handleOperator(operator) {

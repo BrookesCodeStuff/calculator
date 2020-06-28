@@ -5,7 +5,7 @@ Javascript calculator project
 - [x] percent function
 - [x] toggle positive/negative sign of number
 - [x] add decimal to numbers
-- [ ] round answers w/ long decimals
+- [x] round answers w/ long decimals
 - [x] mashing '=' before entering numbers/operators does nothing
 - [x] clear button wipes all data
 - [x] respects MDAS order of operations
